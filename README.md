@@ -1,4 +1,4 @@
-# Coursera-Getting-and-Cleaning-Data-Project
+# Getting and Cleaning Data Project
 by Roel M. Gevana
 
 Repository for the course project in JHU-Coursera Getting and Cleaning Data module.
