@@ -1,4 +1,4 @@
-#Getting and Cleaning Data Course Project
+#Getting and Cleaning Data Project
 #by Roel M. Gevana
 #January 21, 2018
 
