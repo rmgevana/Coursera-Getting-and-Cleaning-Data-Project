@@ -1,25 +1,16 @@
 # Coursera-Getting-and-Cleaning-Data-Project
-Repo as a course assignment in Johns Hopkins University Getting and Cleaning Data R programming course.
+This is the course project for the Getting and Cleaning Data Coursera course.
+The R script, `run_analysis.R`, does the following:
 
-Overview
+1. Download the dataset if it does not already exist in the working directory
+2. Load the activity and feature info
+3. Loads both the training and test datasets, keeping only those columns which
+   reflect a mean or standard deviation
+4. Loads the activity and subject data for each dataset, and merges those
+   columns with the dataset
+5. Merges the two datasets
+6. Converts the `activity` and `subject` columns into factors
+7. Creates a tidy dataset that consists of the average (mean) value of each
+   variable for each subject and activity pair.
 
-This project serves to demonstrates the collection and cleaning of an existing data set that can be used for later analysis.
-
-A full description of the data used in this project can be found at The UCI Machine Learning Repository
-
-The source data for this project can be found here.
-Summary
-
-The following is a summary description of the project instructions
-
-You should create one R script called run_analysis.R that does the following.
-
-    Merges the training and the test sets to create one data set.
-    Extracts only the measurements on the mean and standard deviation for each measurement.
-    Uses descriptive activity names to name the activities in the data set
-    Appropriately labels the data set with descriptive activity names.
-    Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-
-Additional Information
-
-You can find additional information about the variables, data and transformations in the CodeBook.md file.
+The end result is shown in the file `tidy.txt`.
