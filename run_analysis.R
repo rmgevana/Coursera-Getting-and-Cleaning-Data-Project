@@ -18,7 +18,7 @@ rm(list=ls())
 # 1. Merge the training and the test sets to create one data set.
 
 #set working directory to the data source
-setwd('C:/Users/metro/Desktop/COURSERA/GETTING_CLEANING_DATA_WEEK4_PEER_REVIEW/UCI HAR Dataset');
+setwd('C:/Users/Roel/Desktop/UCI HAR Dataset');
 
 # Read in the data from source files
 features     = read.table('./features.txt',header=FALSE);
